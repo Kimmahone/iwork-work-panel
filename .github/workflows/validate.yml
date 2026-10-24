@@ -1,0 +1,11 @@
+name: Validate release package
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate scripts, guide and isolated installation
+        run: python3 scripts/validate.py

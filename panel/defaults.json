@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "shortcuts": {
+    "palette": "k",
+    "presets": "p",
+    "help": "h",
+    "left": "l",
+    "center": "e",
+    "right": "r",
+    "bold": "b",
+    "grow": "=",
+    "shrink": "-",
+    "copyStyle": "c",
+    "pasteStyle": "v",
+    "group": "g"
+  },
+  "pages": [
+    {
+      "name": "학습지 제목",
+      "size": 24,
+      "bold": true,
+      "align": "center"
+    },
+    {
+      "name": "소제목·발문",
+      "size": 16,
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "name": "본문",
+      "size": 12,
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "name": "강조 문장",
+      "size": 14,
+      "bold": true,
+      "align": "left"
+    }
+  ],
+  "keynote": [
+    {
+      "name": "슬라이드 제목",
+      "size": 48,
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "name": "소제목",
+      "size": 32,
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "name": "본문",
+      "size": 24,
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "name": "핵심 문장",
+      "size": 36,
+      "bold": true,
+      "align": "center"
+    }
+  ],
+  "numbers": [
+    {
+      "name": "표 머리글",
+      "size": 13,
+      "bold": true,
+      "align": "center",
+      "background": "#244B5A",
+      "color": "#FFFFFF"
+    },
+    {
+      "name": "일반 셀",
+      "size": 12,
+      "bold": false,
+      "align": "left",
+      "background": "#FFFFFF",
+      "color": "#222222"
+    },
+    {
+      "name": "숫자 셀",
+      "size": 12,
+      "bold": false,
+      "align": "right",
+      "format": "number",
+      "background": "#FFFFFF",
+      "color": "#222222"
+    },
+    {
+      "name": "강조 셀",
+      "size": 12,
+      "bold": true,
+      "align": "left",
+      "background": "#FFF1C9",
+      "color": "#222222"
+    }
+  ],
+  "office": {
+    "cleanup": {
+      "name": "선택범위 정리",
+      "size": 12,
+      "bold": false,
+      "align": "left",
+      "line": 1.3,
+      "before": 0,
+      "after": 6
+    },
+    "styles": [
+      {
+        "name": "제목",
+        "size": 20,
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "name": "보고자",
+        "size": 12,
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "name": "표지",
+        "size": 28,
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "name": "참고",
+        "size": 10,
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "name": "붙임",
+        "size": 12,
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "name": "날짜",
+        "size": 12,
+        "bold": false,
+        "align": "right"
+      }
+    ],
+    "paper": {
+      "header": 10,
+      "top": 15,
+      "bottom": 10,
+      "footer": 15,
+      "left": 20,
+      "right": 20
+    }
+  },
+  "freeform": [
+    {
+      "name": "보드 제목",
+      "size": 36,
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "name": "분류 제목",
+      "size": 24,
+      "bold": true,
+      "align": "left"
+    },
+    {
+      "name": "메모 본문",
+      "size": 18,
+      "bold": false,
+      "align": "left"
+    },
+    {
+      "name": "핵심 아이디어",
+      "size": 24,
+      "bold": true,
+      "align": "center"
+    }
+  ]
+}

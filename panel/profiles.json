@@ -1,0 +1,185 @@
+{
+  "style": "W02 Work",
+  "pages": {
+    "label": "문서",
+    "cleanup": {
+      "name": "본문 정리",
+      "size": 12,
+      "bold": false,
+      "align": "left",
+      "line": 1.3,
+      "before": 0,
+      "after": 6
+    },
+    "extra": [
+      {
+        "name": "문서 제목",
+        "size": 20,
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "name": "보고자",
+        "size": 12,
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "name": "표지 제목",
+        "size": 28,
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "name": "참고·출처",
+        "size": 10,
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "name": "붙임",
+        "size": 12,
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "name": "날짜",
+        "size": 12,
+        "bold": false,
+        "align": "right"
+      }
+    ],
+    "tableNames": [
+      "보고서",
+      "비교표",
+      "기록표"
+    ]
+  },
+  "numbers": {
+    "label": "셀·데이터",
+    "cleanup": {
+      "name": "셀 정리",
+      "size": 12
+    },
+    "extra": [
+      {
+        "name": "합계 셀",
+        "size": 12,
+        "bold": true,
+        "align": "right",
+        "background": "#E5F1FB",
+        "color": "#005A9E"
+      },
+      {
+        "name": "입력 셀",
+        "size": 12,
+        "bold": false,
+        "align": "left",
+        "background": "#FFF4D6",
+        "color": "#1B1B1B"
+      },
+      {
+        "name": "금액 셀",
+        "size": 12,
+        "bold": false,
+        "align": "right",
+        "format": "currency"
+      },
+      {
+        "name": "백분율 셀",
+        "size": 12,
+        "bold": false,
+        "align": "right",
+        "format": "percent"
+      }
+    ],
+    "tableNames": [
+      "데이터표",
+      "머리글 강조",
+      "입력표"
+    ]
+  },
+  "keynote": {
+    "label": "슬라이드",
+    "cleanup": {
+      "name": "본문 정리",
+      "size": 24,
+      "bold": false,
+      "align": "left",
+      "line": 1.2,
+      "before": 0,
+      "after": 10
+    },
+    "extra": [
+      {
+        "name": "간지 제목",
+        "size": 54,
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "name": "출처·설명",
+        "size": 18,
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "name": "큰 숫자",
+        "size": 64,
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "name": "핵심 질문",
+        "size": 40,
+        "bold": true,
+        "align": "center"
+      }
+    ],
+    "tableNames": [
+      "발표표",
+      "비교 강조",
+      "활동표"
+    ]
+  },
+  "tableStyles": [
+    {
+      "id": "report",
+      "name": "보고서",
+      "background": "#FFFFFF",
+      "color": "#1B1B1B",
+      "headerBackground": "#E5F1FB",
+      "headerColor": "#005A9E"
+    },
+    {
+      "id": "soft",
+      "name": "비교표",
+      "background": "#FFFFFF",
+      "color": "#1B1B1B",
+      "headerBackground": "#005A9E",
+      "headerColor": "#FFFFFF"
+    },
+    {
+      "id": "input",
+      "name": "기록표",
+      "background": "#FFF9E8",
+      "color": "#1B1B1B",
+      "headerBackground": "#E6E9EE",
+      "headerColor": "#1B1B1B"
+    }
+  ],
+  "fonts": {
+    "body": "Noto Sans KR",
+    "fallback": "Apple SD Gothic Neo",
+    "number": "Inter"
+  },
+  "freeform": {
+    "cleanup": {
+      "name": "글자 정리",
+      "size": 18,
+      "bold": false,
+      "align": "left"
+    },
+    "extra": []
+  }
+}

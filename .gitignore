@@ -1,0 +1,12 @@
+dist/
+.DS_Store
+__pycache__/
+*.pyc
+user-settings.json*
+user-profiles.json
+panel-state.json
+evidence/
+backups/
+*.pages
+*.numbers
+*.key
