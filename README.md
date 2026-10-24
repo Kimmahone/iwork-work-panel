@@ -4,7 +4,7 @@ Pages·Numbers·Keynote·Freeform의 자주 쓰는 편집 기능을 옆에 띄�
 
 **2.1.0-beta.1 · Mac 설치형 베타 · 한국어 메뉴 기준**
 
-[설치 ZIP 다운로드](https://github.com/Kimmahone/iwork-work-panel/releases/latest) · [kimmahone.com 소개](https://kimmahone.com/projects/#progress-iwork-work) · [사용 안내](panel/사용%20안내.html) · [검증 범위](docs/VERIFICATION.md)
+[설치 ZIP 다운로드](https://github.com/Kimmahone/iwork-work-panel/releases/tag/v2.1.0-beta.1) · [kimmahone.com 소개](https://kimmahone.com/projects/#progress-iwork-work) · [사용 안내](panel/사용%20안내.html) · [검증 범위](docs/VERIFICATION.md)
 
 ![Freeform용 WORK 패널](docs/panel.png)
 
