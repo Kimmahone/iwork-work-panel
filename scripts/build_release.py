@@ -15,8 +15,12 @@ def build():
     if dest.exists():
         shutil.rmtree(dest)
     dest.mkdir(parents=True)
-    files = ['README.md', 'LICENSE', 'CHANGELOG.md', 'VERSION', 'payload-files.txt',
+    files = ['README.md', '설치 안내.html', 'LICENSE', 'CHANGELOG.md', 'VERSION', 'payload-files.txt',
              'install.command', 'uninstall.command', 'docs/VERIFICATION.md', 'docs/panel.png']
+    files += ['docs/install/' + name for name in [
+        '01-hammerspoon-download.png', '02-access-title.png', '02-access-toggle.png',
+        '03-assets.png', '04-install-folder.png', '05-hammerspoon-app.png',
+        '06-panel.png', '07-automation.png', '08-help.png']]
     files += ['panel/' + name for name in (ROOT / 'payload-files.txt').read_text().splitlines()]
     sums = []
     for name in files:
